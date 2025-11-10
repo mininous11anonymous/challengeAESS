@@ -81,4 +81,5 @@ To capture your environment's dependencies after installing the packages you nee
 ```powershell
 pip freeze > requirements.txt
 ```
+(img)
 
