@@ -388,16 +388,3 @@ def test_multi_agent_crew_execution():
 - [ ] Add versioning and changelog
 
 ---
-
-## Performance Optimization Tips
-
-1. **Cache Baselines:** Compute once, reuse for multiple samples
-2. **Batch LLM Calls:** Combine multiple anomaly reports into single LLM request
-3. **Use Async I/O:** For parallel Excel file reading (use `openpyxl` with threading)
-4. **Profile Code:** Use `cProfile` to identify bottlenecks
-5. **Consider Parquet:** Replace Excel with Parquet for faster I/O (100x+ speedup)
-6. **Stream Processing:** For real-time data, use Kafka or similar event stream
-
----
-
-**Last Updated:** November 10, 2025

@@ -496,18 +496,3 @@ python main.py
 | **Specificity**                  | High (3σ) | -          | ~99.7% of normal samples won't be flagged (if normally distributed) |
 
 ---
-
-## 13. Contacts & Documentation
-
-- **Project Home:** `c:\Users\21652\Desktop\crew_ai\`
-- **Main Script:** `main.py`
-- **Data Folder:** `data/` (place `.xlsx` files here)
-- **README:** `README.md`
-- **This Report:** `PROJECT_REPORT.md`
-
-For questions or issues, consult the README or examine the code comments in `main.py`.
-
----
-
-**Report Generated:** November 10, 2025  
-**Project Status:** Active (ready for testing & deployment)

@@ -119,26 +119,3 @@ SKIP_CREW=1                  # Skip LLM run; analyzer only
 
 ---
 
-## Limitations & Next Steps
-
-### Known Limitations
-
-1. Assumes normal distribution (may fail for highly skewed data)
-2. Static baselines (no time-series decay modeling)
-3. Independent samples (no temporal correlation)
-4. Expensive LLM crew runs (quota-limited)
-
-### Recommended Enhancements
-
-- [ ] Add Isolation Forest for non-normal distributions
-- [ ] Implement time-series anomaly detection (LSTM/Prophet)
-- [ ] Cache LLM results
-- [ ] Add unit tests
-- [ ] Generate `requirements.txt`
-- [ ] Add CLI (argparse) for easier invocation
-- [ ] Integrate with Angular dashboard
-- [ ] Set up GitHub Actions CI/CD
-
----
-
-**Last Updated:** November 10, 2025
