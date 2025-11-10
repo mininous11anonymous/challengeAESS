@@ -70,6 +70,7 @@ Behavior
 - If `SKIP_CREW=1` is set, the script will skip the CrewAI LLM agents and exit after printing the analyzer output.
 - Otherwise the full multi-agent crew will run and produce a final report (this will call LLM APIs and may consume quota).
 
+
 Security & secrets
 
 - Put API keys and secrets in a `.env` file (loaded by `python-dotenv`) or environment variables. Do NOT commit `.env` or your virtual environment to source control.
@@ -81,5 +82,7 @@ To capture your environment's dependencies after installing the packages you nee
 ```powershell
 pip freeze > requirements.txt
 ```
-(img)
+<img width="1577" height="818" alt="Capture d_écran 2025-11-10 212149" src="https://github.com/user-attachments/assets/4889ff4a-b773-4fd3-b0c2-b53d6782f11e" />
+<img width="1637" height="822" alt="Capture d_écran 2025-11-10 212116" src="https://github.com/user-attachments/assets/ea07ac76-3ba6-4c5a-ad6e-f3f1f9640d85" />
+<img width="1896" height="810" alt="Capture d_écran 2025-11-10 212039" src="https://github.com/user-attachments/assets/2a8cc427-4e15-4046-b64b-635a92556c91" />
 
