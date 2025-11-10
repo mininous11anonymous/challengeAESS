@@ -82,18 +82,3 @@ To capture your environment's dependencies after installing the packages you nee
 pip freeze > requirements.txt
 ```
 
-Contributing
-
-Issues, improvements to anomaly heuristics, ML-backed anomaly detectors, or nicer report output are welcome. If you want Agents to invoke tools directly, we'll need to align the tool objects with the CrewAI expected `BaseTool` API/version.
-
-License
-
-Pick a license for the repository (e.g., MIT) and add it as `LICENSE` if you intend to publish.
-
----
-
-If you'd like, I can also:
-
-- Add a `requirements.txt` generated from your current environment.
-- Add a minimal CLI wrapper to `main.py` (argparse) so you can call `--sample satellite_input.json` or `--skip-crew` directly.
-- Create GitHub Actions workflow for basic linting/tests.
